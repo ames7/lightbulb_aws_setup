@@ -75,10 +75,10 @@
         msg: 'application is available at http://{{ inventory_hostname }}/'
       when: response | success
 
-- name: Email inventory to instructor
-  hosts: localhost
-  connection: local
-  become: no
-  gather_facts: no
-  roles:
-    - email-instructor
+#- name: Email inventory to instructor
+  #hosts: localhost
+ # connection: local
+# become: no
+ # gather_facts: no
+  #roles:
+ #   - email-instructor
