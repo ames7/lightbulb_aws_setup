@@ -48,7 +48,7 @@ ec2_instance_types:
 
   rhel7-tower:
     ami_id: "{{ ec2_regions[ec2_region].amis['rhel7-tower'] }}"
-    size: t2.medium
+    size: t2.micro
     os_type: linux
     disk_space: 20
 
